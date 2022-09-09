@@ -1,0 +1,150 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background-color: #05292e;
+  justify-content: space-evenly;
+}
+
+.container-character{
+  background: #062226;
+  color: white;
+  box-shadow: 3px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 320px;
+  padding-bottom: 15px;
+}
+
+.container-character p{
+  background: #062226;
+  top: 250px;
+
+}
+
+.container-character h2{
+  margin: 0 0 0 0;
+  padding: 5px 0 15px 0;
+  border-bottom: 1px solid #06292e;
+}
+
+.move-info-character{
+  margin: 0 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.move-info-character h3{
+margin: 0;
+}
+
+.move-info-character h4{
+  margin: 15px 0 0 0;
+  font-size: 15px;
+}
+
+span{
+  color: #767878;
+}
+
+.container-img img{
+  width: 100%;
+  margin: 0;
+}
+
+.container-img p{
+    position: relative;
+    top: -320px;
+    width: 100px;
+    border-radius: 0 15px 15px 0; 
+    margin: 0;
+}
+
+.move-info-data{
+  background: #062226;
+  width: 1280px;
+  height: 100px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.move-data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.move-data h4{
+  color: white;
+  margin: 0 0 15px 0; 
+  font-size: 22px;
+}
+.move-data h3{
+  color: #e7eaea;
+  margin: 0;
+  font-size: 20px;
+}
+
+.move-input input{
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: 
+}
+.move-input button{
+  height: 45px;
+  position: relative;
+  right: 93px;
+  bottom: 1px;
+  border-radius: 0 10px 10px 0 ;
+  border: 2px solid #05292e;
+  cursor: pointer;
+}
