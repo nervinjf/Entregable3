@@ -280,7 +280,8 @@ span{
   .move-input button{
     position: relative;
     bottom: 49px;
-    right: -110px;
+    right: -107px;
+    height: 38px;
     border-radius: 0 10px 10px 0 ;
     border: 2px solid #05292e;
     cursor: pointer;
