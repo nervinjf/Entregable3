@@ -241,18 +241,7 @@ span{
 }
 }
 
-@media(max-width: 375px){
-
-  .img{
-    background: #747bff;
-    height:300px;
-    width: 400px;
-  }
-  
-  .img img{
-    height: 100%;
-    width: 100%;
-  }
+@media(max-width: 414px){
 
   .container{
   display: flex;
@@ -261,6 +250,7 @@ span{
   width: 100%;
   background-color: #05292e;
   justify-content: space-evenly;
+  margin: 15px 0 ;
   }
 
   .move-info-data{
@@ -268,9 +258,10 @@ span{
     font-size: 15px;
     width: 330px;
     height: 250px;
-    margin: 30px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
   }
 
   .move-data{
@@ -278,7 +269,6 @@ span{
   }
   
   .move-input{
-    position: relative;
     left: 50px;
     top: 15px;
   }
@@ -293,9 +283,9 @@ span{
   }
   
   .move-input button{
-    height: 45px;
-    position: relative;
-    bottom: 1px;
+    position: absolute;
+    bottom: 525px;
+    right: 62px;
     border-radius: 0 10px 10px 0 ;
     border: 2px solid #05292e;
     cursor: pointer;
