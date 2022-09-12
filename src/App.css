@@ -267,11 +267,6 @@ span{
   .move-data{
     padding: 10px;
   }
-  
-  .move-input{
-    left: 50px;
-    top: 15px;
-  }
 
   .move-input input{
     width: 280px;
@@ -284,7 +279,7 @@ span{
   
   .move-input button{
     position: absolute;
-    bottom: 525px;
+    bottom: 380px;
     right: 62px;
     border-radius: 0 10px 10px 0 ;
     border: 2px solid #05292e;
