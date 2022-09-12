@@ -4,6 +4,7 @@ import React, { useEffect, useState} from 'react';
 const ResidentItems = ({ url }) => {
 
     const [ characters, setCharacters ] = useState({})
+    const [ led, setLed ] = useState(".")
 
     useEffect(() =>{
         axios.get(`${url}`)
@@ -17,7 +18,7 @@ const ResidentItems = ({ url }) => {
             <div className='container-character'>
             <div className="container-img">
             <img src={characters.image} alt="" />
-            <p>. {characters.status}</p>
+            <p><span className='hola'><i class="fa-solid fa-circle" style={{color: characters.status === "Alive" ? " chartreuse" : characters.status === "Dead" ? "red" : "gray"}}></i></span> {characters.status}</p>
             </div>   
             <div className='move-info-character'>
             <h2>{characters.name}</h2>
