@@ -278,9 +278,9 @@ span{
   }
   
   .move-input button{
-    position: absolute;
-    bottom: 380px;
-    right: 62px;
+    position: relative;
+    bottom: 45px;
+    right: -100px;
     border-radius: 0 10px 10px 0 ;
     border: 2px solid #05292e;
     cursor: pointer;
