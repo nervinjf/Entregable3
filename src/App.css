@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -137,8 +136,8 @@ span{
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;
-  text-align: 
 }
+
 .move-input button{
   height: 45px;
   position: relative;
@@ -147,4 +146,158 @@ span{
   border-radius: 0 10px 10px 0 ;
   border: 2px solid #05292e;
   cursor: pointer;
+}
+
+@media(max-width: 1300px){
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background-color: #05292e;
+  justify-content: space-evenly;
+  }
+
+  .move-info-data{
+    background: #062226;
+    width: 1200px;
+    height: 100px;
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .move-input{
+    margin: 25px;
+  }
+
+  .move-input input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .move-input button{
+    height: 45px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 0 10px 10px 0 ;
+    border: 2px solid #05292e;
+    cursor: pointer;
+  
+}
+}
+@media(max-width: 390px){
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background-color: #05292e;
+  justify-content: space-evenly;
+  }
+
+  .move-info-data{
+    background: #062226;
+    font-size: 15px;
+    width: 330px;
+    height: 250px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .move-data{
+    padding: 10px;
+  }
+  
+  .move-input{
+    position: relative;
+    left: 0px;
+    top: 15px;
+  }
+
+  .move-input input{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .move-input button{
+    height: 45px;
+    position: relative;
+    bottom: 45px;
+    right: -100px;
+    border-radius: 0 10px 10px 0 ;
+    border: 2px solid #05292e;
+    cursor: pointer;
+}
+}
+
+@media(max-width: 375px){
+
+  .img{
+    background: #747bff;
+    height:300px;
+    width: 400px;
+  }
+  
+  .img img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background-color: #05292e;
+  justify-content: space-evenly;
+  }
+
+  .move-info-data{
+    background: #062226;
+    font-size: 15px;
+    width: 330px;
+    height: 250px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .move-data{
+    padding: 10px;
+  }
+  
+  .move-input{
+    position: relative;
+    left: 50px;
+    top: 15px;
+  }
+
+  .move-input input{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .move-input button{
+    height: 45px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 0 10px 10px 0 ;
+    border: 2px solid #05292e;
+    cursor: pointer;
+}
 }
